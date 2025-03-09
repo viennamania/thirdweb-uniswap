@@ -19,7 +19,14 @@ export const tokens: { [id: string]: Token } = {
     symbol: "USDT",
     decimals: 6,
     image: "https://assets.coingecko.com/coins/images/325/standard/Tether.png?1696501661"
-  }
+  },
+  // SAND
+  "sand": {
+    address: "0xbbba073c31bf03b8acf7c28ef0738decf3695683",
+    symbol: "SAND",
+    decimals: 18,
+    image: "https://assets.coingecko.com/coins/images/12129/standard/sandbox_logo.jpg?1696511971"
+  },
 }
 
 export const ROUTER = "0xE592427A0AEce92De3Edee1F18E0157C05861564";
